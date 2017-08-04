@@ -56,7 +56,6 @@
 		8E4B139E1F2E4824000288ED = {
 			isa = PBXGroup;
 			children = (
-				8EFE58551F2E4E79001D3D0E /* Supporting Files */,
 				8E4B13A91F2E4824000288ED /* Smack */,
 				8E4B13A81F2E4824000288ED /* Products */,
 				1236B1B0BC0D6DA6B509C59D /* Pods */,
@@ -75,6 +74,7 @@
 		8E4B13A91F2E4824000288ED /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				8EFE58551F2E4E79001D3D0E /* Supporting Files */,
 				8E4B13AA1F2E4824000288ED /* AppDelegate.swift */,
 				8E4B13AC1F2E4824000288ED /* ViewController.swift */,
 				8E4B13AE1F2E4824000288ED /* Main.storyboard */,
@@ -372,6 +372,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.artisanbranding.com.Smack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/Smack-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -390,6 +391,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.artisanbranding.com.Smack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/Smack-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
