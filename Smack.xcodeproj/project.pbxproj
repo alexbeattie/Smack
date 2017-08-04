@@ -12,6 +12,7 @@
 		8E4B13B01F2E4824000288ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4B13AE1F2E4824000288ED /* Main.storyboard */; };
 		8E4B13B21F2E4824000288ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E4B13B11F2E4824000288ED /* Assets.xcassets */; };
 		8E4B13B51F2E4824000288ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4B13B31F2E4824000288ED /* LaunchScreen.storyboard */; };
+		8E6F10561F34F666007B487D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6F10551F34F666007B487D /* GradientView.swift */; };
 		8EE589801F34E5DB00D35B8A /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE5897F1F34E5DB00D35B8A /* ChatVC.swift */; };
 		8EE589821F34E5EA00D35B8A /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE589811F34E5EA00D35B8A /* ChannelVC.swift */; };
 		8EFE58591F2E4EAB001D3D0E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFE58581F2E4EAB001D3D0E /* SWRevealViewController.m */; };
@@ -25,6 +26,7 @@
 		8E4B13B11F2E4824000288ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E4B13B41F2E4824000288ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E4B13B61F2E4824000288ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E6F10551F34F666007B487D /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		8EE5897F1F34E5DB00D35B8A /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		8EE589811F34E5EA00D35B8A /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		8EFE58561F2E4EAA001D3D0E /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 		8EE5897E1F34E5C100D35B8A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8E6F10551F34F666007B487D /* GradientView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 			files = (
 				8EE589821F34E5EA00D35B8A /* ChannelVC.swift in Sources */,
 				8EE589801F34E5DB00D35B8A /* ChatVC.swift in Sources */,
+				8E6F10561F34F666007B487D /* GradientView.swift in Sources */,
 				8E4B13AB1F2E4824000288ED /* AppDelegate.swift in Sources */,
 				8EFE58591F2E4EAB001D3D0E /* SWRevealViewController.m in Sources */,
 			);
