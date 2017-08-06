@@ -184,9 +184,6 @@
                                 <state key="normal" title="Login">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="createAccountButton:" destination="op5-4J-cQt" eventType="touchUpInside" id="ysG-P3-crR"/>
-                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" axis="vertical" alignment="top" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="Amu-y3-oDQ">
                                 <rect key="frame" x="62" y="237" width="250" height="86"/>
@@ -231,6 +228,9 @@
                                 <state key="normal" title="Dont have an account? Sign up here">
                                     <color key="titleColor" red="0.35686274509999999" green="0.62352941179999999" blue="0.79607843140000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="createAccountButton:" destination="op5-4J-cQt" eventType="touchUpInside" id="geP-pl-42Z"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -269,7 +269,6 @@
                                 <state key="normal" image="closeButton"/>
                                 <connections>
                                     <action selector="closePressed:" destination="Lht-Dj-SBn" eventType="touchUpInside" id="EXH-kG-XTI"/>
-                                    <action selector="closePressed:" destination="op5-4J-cQt" eventType="touchUpInside" id="lVD-hF-dFE"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" axis="vertical" alignment="top" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="cMB-Ay-Iz6">
