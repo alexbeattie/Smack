@@ -16,9 +16,9 @@ class CreateAccountVC: UIViewController {
     @IBOutlet weak var passTxt: UITextField!
     @IBOutlet weak var userImg: UIImageView!
     
-	    // Variables
-	    var avatarName = "profileDefault"
-	    var avatarColor = "[0.5, 0.5, 0.5, 1]"
+    // Variables
+    var avatarName = "profileDefault"
+    var avatarColor = "[0.5, 0.5, 0.5, 1]"
 	
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,6 +32,7 @@ class CreateAccountVC: UIViewController {
     }
     
     @IBAction func pickAvatar(_ sender: Any) {
+        performSegue(withIdentifier: TO_AVATAR_PICKER, sender: nil)
     }
     
     // register user
