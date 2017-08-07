@@ -20,6 +20,7 @@
 		8ED528BF1F378B83002EF86A /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED528BE1F378B83002EF86A /* AuthService.swift */; };
 		8EE589801F34E5DB00D35B8A /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE5897F1F34E5DB00D35B8A /* ChatVC.swift */; };
 		8EE589821F34E5EA00D35B8A /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE589811F34E5EA00D35B8A /* ChannelVC.swift */; };
+		8EEF66161F38DECF006F37D0 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF66151F38DECF006F37D0 /* UserDataService.swift */; };
 		8EFE58591F2E4EAB001D3D0E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFE58581F2E4EAB001D3D0E /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		8ED528BE1F378B83002EF86A /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		8EE5897F1F34E5DB00D35B8A /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		8EE589811F34E5EA00D35B8A /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		8EEF66151F38DECF006F37D0 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		8EFE58561F2E4EAA001D3D0E /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		8EFE58571F2E4EAB001D3D0E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../../Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.h"; sourceTree = "<group>"; };
 		8EFE58581F2E4EAB001D3D0E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../../Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.m"; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 		8ED528BD1F3789F1002EF86A /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				8EEF66151F38DECF006F37D0 /* UserDataService.swift */,
 				8ED528BE1F378B83002EF86A /* AuthService.swift */,
 			);
 			path = Services;
@@ -290,6 +293,7 @@
 				8EB788591F38BAE100D501AA /* RoundedCorners.swift in Sources */,
 				8EE589821F34E5EA00D35B8A /* ChannelVC.swift in Sources */,
 				8EE589801F34E5DB00D35B8A /* ChatVC.swift in Sources */,
+				8EEF66161F38DECF006F37D0 /* UserDataService.swift in Sources */,
 				8E6F105D1F351655007B487D /* CreateAccountVC.swift in Sources */,
 				8ED528BF1F378B83002EF86A /* AuthService.swift in Sources */,
 				8E6F105B1F351515007B487D /* LoginVC.swift in Sources */,
